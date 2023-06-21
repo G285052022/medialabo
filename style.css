@@ -5,3 +5,28 @@ h1{
 h2.theme{
     border:solid #FF0F50;
 }
+
+h2.projectkadai{
+    border:solid orange
+}
+
+h2.kazuate{
+    border:solid green
+}
+
+h2.jikken{
+    border:solid blue
+}
+div#zentai {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 350px 350px;
+	grid-gap: 20px;
+	padding: 10px;
+	width: auto;
+}
+
+div#zentai > div {
+	margin-left: 5px;
+	background-color:  #7fffd4;
+}
