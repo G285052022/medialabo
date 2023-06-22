@@ -31,7 +31,7 @@ function hantei() {
   else if(yoso>kotae){
     console.log("まちがい．答えはもっと小さいですよ");
   }
-  else if(yoso<kotae){
+  else {
     console.log("まちがい．答えはもっと大きいですよ");
   }
   // 課題3-1: 正解判定する
