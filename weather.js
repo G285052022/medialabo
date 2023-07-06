@@ -84,3 +84,14 @@ let li = document.createElement('li');
   let li8 = document.createElement('li');
   li8.textContent = "都市名:"+data.name;
   div.insertAdjacentElement('beforeend', li8);
+
+
+  let b = document.querySelector('#print');
+b.addEventListener('click', hantei);
+
+function hantei(){
+  let i = document.querySelector('input[name="wether"]');
+  let id = i.value;
+  console.log(id);
+}
+
