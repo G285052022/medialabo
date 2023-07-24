@@ -5,7 +5,7 @@ b.addEventListener('click', sendRequest);
 // 通信を開始する処理
 function sendRequest() {
 	// URL を設定
-	let url = '"https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"';
+	let url = 'https://www.nishita-lab.org/web-contents/jsons/test.json';
 
 	// 通信開始
 	axios.get(url)
