@@ -4,18 +4,25 @@ h1{
 }
 h2.theme{
     border:solid #FF0F50;
+    color: #FF0F50;
 }
 
 h2.projectkadai{
-    border:solid orange
+    border:solid orange;
+    color: orange;
 }
 
 h2.kazuate{
-    border:solid green
+    border:solid green;
+    color: green;
 }
 
 h2.jikken{
-    border:solid blue
+    border:solid blue;
+    color: blue;
+}
+h2.kanso{
+    color:#2050BB;
 }
 div#zentai {
     display: grid;
@@ -30,3 +37,28 @@ div#zentai > div {
 	margin-left: 5px;
 	background-color:  #7fffd4;
 }
+
+P{
+    color: navy;
+}
+a{
+    color: pink;
+}
+a:visited{
+    color : crimson;
+}
+a:hover{
+    text-decoration: none;
+}
+
+h3{
+    color: purple;
+}
+.box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 1000px;
+    height: 300px;
+  }

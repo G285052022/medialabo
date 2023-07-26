@@ -3,6 +3,12 @@ h2{
 }
 
 body{
-    background-color: aqua;
-    
+    background-image:url("sky_00165.jpg");
+    background-size: cover;
+}
+label{
+    color: yellowgreen;
+}
+li{
+    color: crimson;
 }
